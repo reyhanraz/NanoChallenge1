@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B103BA82419421300A58DB9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B103BA72419421300A58DB9 /* HomeController.swift */; };
 		4B714F92240E1B29005FC2D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B714F91240E1B29005FC2D5 /* AppDelegate.swift */; };
 		4B714F94240E1B29005FC2D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B714F93240E1B29005FC2D5 /* SceneDelegate.swift */; };
 		4B714F96240E1B29005FC2D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B714F95240E1B29005FC2D5 /* ViewController.swift */; };
 		4B714F99240E1B29005FC2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B714F97240E1B29005FC2D5 /* Main.storyboard */; };
 		4B714F9B240E1B2A005FC2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B714F9A240E1B2A005FC2D5 /* Assets.xcassets */; };
-		4B714F9E240E1B2A005FC2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B714F9C240E1B2A005FC2D5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B103BA72419421300A58DB9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		4B714F8E240E1B29005FC2D5 /* NanoChallenge1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChallenge1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B714F91240E1B29005FC2D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B714F93240E1B29005FC2D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4B714F95240E1B29005FC2D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B714F98240E1B29005FC2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B714F9A240E1B2A005FC2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B714F9D240E1B2A005FC2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B714F9F240E1B2A005FC2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,8 +60,8 @@
 				4B714F93240E1B29005FC2D5 /* SceneDelegate.swift */,
 				4B714F95240E1B29005FC2D5 /* ViewController.swift */,
 				4B714F97240E1B29005FC2D5 /* Main.storyboard */,
+				4B103BA72419421300A58DB9 /* HomeController.swift */,
 				4B714F9A240E1B2A005FC2D5 /* Assets.xcassets */,
-				4B714F9C240E1B2A005FC2D5 /* LaunchScreen.storyboard */,
 				4B714F9F240E1B2A005FC2D5 /* Info.plist */,
 			);
 			path = NanoChallenge1;
@@ -125,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B714F9E240E1B2A005FC2D5 /* LaunchScreen.storyboard in Resources */,
 				4B714F9B240E1B2A005FC2D5 /* Assets.xcassets in Resources */,
 				4B714F99240E1B29005FC2D5 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B103BA82419421300A58DB9 /* HomeController.swift in Sources */,
 				4B714F96240E1B29005FC2D5 /* ViewController.swift in Sources */,
 				4B714F92240E1B29005FC2D5 /* AppDelegate.swift in Sources */,
 				4B714F94240E1B29005FC2D5 /* SceneDelegate.swift in Sources */,
@@ -153,14 +153,6 @@
 				4B714F98240E1B29005FC2D5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4B714F9C240E1B2A005FC2D5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B714F9D240E1B2A005FC2D5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G44XW2W74;
 				INFOPLIST_FILE = NanoChallenge1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G44XW2W74;
 				INFOPLIST_FILE = NanoChallenge1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
